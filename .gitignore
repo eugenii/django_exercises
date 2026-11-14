@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+ENV/
+env/
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Базы данных (Django специфика)
+*.sqlite3
+
+# Загрузки пользователей (Медиа)
+media/
+staticfiles/
+
+# Настройки IDE (VS Code и PyCharm)
+.vscode/
+.idea/
+
+# Логи и системные файлы
+*.log
+.DS_Store
